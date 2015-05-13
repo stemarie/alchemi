@@ -1,97 +1,8 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alchemi.Core", "Alchemi.Core\Alchemi.Core.csproj", "{234F2AB1-B1F6-4FAD-9DAD-E18AF5847880}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecutorExec", "Alchemi.ExecutorExec\ExecutorExec.csproj", "{8B9083D8-0313-4F68-B8F9-E8BD8DBE5F37}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-	ProjectSection(ProjectDependencies) = postProject
-		{234F2AB1-B1F6-4FAD-9DAD-E18AF5847880} = {234F2AB1-B1F6-4FAD-9DAD-E18AF5847880}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Alchemi.SDK\Console\Console.csproj", "{EACCFD1F-6FCC-43D0-97A8-D9AA39CFCAB8}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-	ProjectSection(ProjectDependencies) = postProject
-		{234F2AB1-B1F6-4FAD-9DAD-E18AF5847880} = {234F2AB1-B1F6-4FAD-9DAD-E18AF5847880}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSubmitter", "Alchemi.SDK\JobSubmitter\JobSubmitter.csproj", "{B31B92E1-0CA5-4226-BDEF-C4DD5BC43E3D}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecutorService", "Alchemi.ExecutorService\ExecutorService.csproj", "{F196CA7C-D8B0-4031-9989-D43406AEB3B8}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-	ProjectSection(ProjectDependencies) = postProject
-		{234F2AB1-B1F6-4FAD-9DAD-E18AF5847880} = {234F2AB1-B1F6-4FAD-9DAD-E18AF5847880}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagerService", "Alchemi.ManagerService\ManagerService.csproj", "{6B15DEC9-B15B-4614-9F70-FCB2E53C7289}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagerExec", "Alchemi.ManagerExec\ManagerExec.csproj", "{11F1CF0B-5526-4534-9784-0543E29D4292}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagerServiceController", "Alchemi.ManagerServiceController\ManagerServiceController.csproj", "{85660E73-08EB-4927-9C77-4009B8533F01}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecutorServiceController", "Alchemi.ExecutorServiceController\ExecutorServiceController.csproj", "{23CC92DA-8780-4A17-BF9A-E567CB0548C5}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alchemi.Tester", "Alchemi.Tester\Alchemi.Tester.csproj", "{C11636CD-14B6-4526-80DA-AFF5DFA84298}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager", "Alchemi.Manager\Manager.csproj", "{3122055C-044A-4C0C-80BB-82232FB333C5}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Executor", "Alchemi.Executor\Executor.csproj", "{A71A830F-F3FA-47BD-956E-67CFB22F75E8}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbSetup", "Alchemi.ManagerUtils\DbSetup\DbSetup.csproj", "{6BA151D4-C25B-47B7-B0A1-938BB13B78BE}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ACFA081C-1D67-4585-A86A-994AB06656C1}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 	ProjectSection(SolutionItems) = preProject
 		Alchemi.build = Alchemi.build
 		Alchemi.ndoc = Alchemi.ndoc
@@ -99,8 +10,44 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\license.rtf = ..\license.rtf
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "F:\...\Alchemi.CrossPlatformManager\", "Alchemi.CrossPlatformManager\", "{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alchemi.Core", "Alchemi.Core\Alchemi.Core.csproj", "{234F2AB1-B1F6-4FAD-9DAD-E18AF5847880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecutorExec", "Alchemi.ExecutorExec\ExecutorExec.csproj", "{8B9083D8-0313-4F68-B8F9-E8BD8DBE5F37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{234F2AB1-B1F6-4FAD-9DAD-E18AF5847880} = {234F2AB1-B1F6-4FAD-9DAD-E18AF5847880}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Alchemi.SDK\Console\Console.csproj", "{EACCFD1F-6FCC-43D0-97A8-D9AA39CFCAB8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{234F2AB1-B1F6-4FAD-9DAD-E18AF5847880} = {234F2AB1-B1F6-4FAD-9DAD-E18AF5847880}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSubmitter", "Alchemi.SDK\JobSubmitter\JobSubmitter.csproj", "{B31B92E1-0CA5-4226-BDEF-C4DD5BC43E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecutorService", "Alchemi.ExecutorService\ExecutorService.csproj", "{F196CA7C-D8B0-4031-9989-D43406AEB3B8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{234F2AB1-B1F6-4FAD-9DAD-E18AF5847880} = {234F2AB1-B1F6-4FAD-9DAD-E18AF5847880}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagerService", "Alchemi.ManagerService\ManagerService.csproj", "{6B15DEC9-B15B-4614-9F70-FCB2E53C7289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagerExec", "Alchemi.ManagerExec\ManagerExec.csproj", "{11F1CF0B-5526-4534-9784-0543E29D4292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagerServiceController", "Alchemi.ManagerServiceController\ManagerServiceController.csproj", "{85660E73-08EB-4927-9C77-4009B8533F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecutorServiceController", "Alchemi.ExecutorServiceController\ExecutorServiceController.csproj", "{23CC92DA-8780-4A17-BF9A-E567CB0548C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alchemi.Tester", "Alchemi.Tester\Alchemi.Tester.csproj", "{C11636CD-14B6-4526-80DA-AFF5DFA84298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager", "Alchemi.Manager\Manager.csproj", "{3122055C-044A-4C0C-80BB-82232FB333C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Executor", "Alchemi.Executor\Executor.csproj", "{A71A830F-F3FA-47BD-956E-67CFB22F75E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbSetup", "Alchemi.ManagerUtils\DbSetup\DbSetup.csproj", "{6BA151D4-C25B-47B7-B0A1-938BB13B78BE}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Alchemi.CrossPlatformManager", "Alchemi.CrossPlatformManager\", "{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}"
 	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
 		ProjectReferences = "{234F2AB1-B1F6-4FAD-9DAD-E18AF5847880}|Alchemi.Core.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/Alchemi.CrossPlatformManager"
 		Debug.AspNetCompiler.PhysicalPath = "Alchemi.CrossPlatformManager\"
@@ -117,32 +64,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "F:\...\Alchemi.CrossPlatfor
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "3154"
-	EndProjectSection
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "XPManagerSetup", "Alchemi.Setup\XPManagerSetup\XPManagerSetup.vdproj", "{F237E273-3D86-40E7-B6ED-6A3D54740CB8}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{A49CE20D-CE64-4A08-9F24-92A6443D6699}") = "Alchemi.Setup", "Alchemi.Setup\Alchemi.Setup.wixproj", "{03A2A35E-8163-4EDD-A84D-5E969CE25EA0}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-	ProjectSection(ProjectDependencies) = postProject
-		{11F1CF0B-5526-4534-9784-0543E29D4292} = {11F1CF0B-5526-4534-9784-0543E29D4292}
-		{EACCFD1F-6FCC-43D0-97A8-D9AA39CFCAB8} = {EACCFD1F-6FCC-43D0-97A8-D9AA39CFCAB8}
-		{3122055C-044A-4C0C-80BB-82232FB333C5} = {3122055C-044A-4C0C-80BB-82232FB333C5}
-		{A71A830F-F3FA-47BD-956E-67CFB22F75E8} = {A71A830F-F3FA-47BD-956E-67CFB22F75E8}
-		{B31B92E1-0CA5-4226-BDEF-C4DD5BC43E3D} = {B31B92E1-0CA5-4226-BDEF-C4DD5BC43E3D}
-		{23CC92DA-8780-4A17-BF9A-E567CB0548C5} = {23CC92DA-8780-4A17-BF9A-E567CB0548C5}
-		{8B9083D8-0313-4F68-B8F9-E8BD8DBE5F37} = {8B9083D8-0313-4F68-B8F9-E8BD8DBE5F37}
-		{6BA151D4-C25B-47B7-B0A1-938BB13B78BE} = {6BA151D4-C25B-47B7-B0A1-938BB13B78BE}
-		{6B15DEC9-B15B-4614-9F70-FCB2E53C7289} = {6B15DEC9-B15B-4614-9F70-FCB2E53C7289}
-		{234F2AB1-B1F6-4FAD-9DAD-E18AF5847880} = {234F2AB1-B1F6-4FAD-9DAD-E18AF5847880}
-		{F196CA7C-D8B0-4031-9989-D43406AEB3B8} = {F196CA7C-D8B0-4031-9989-D43406AEB3B8}
-		{85660E73-08EB-4927-9C77-4009B8533F01} = {85660E73-08EB-4927-9C77-4009B8533F01}
+		SlnRelativePath = "Alchemi.CrossPlatformManager\"
 	EndProjectSection
 EndProject
 Global
@@ -281,35 +203,16 @@ Global
 		{6BA151D4-C25B-47B7-B0A1-938BB13B78BE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6BA151D4-C25B-47B7-B0A1-938BB13B78BE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{6BA151D4-C25B-47B7-B0A1-938BB13B78BE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Debug|.NET.ActiveCfg = Debug|.NET
-		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Debug|.NET.Build.0 = Debug|.NET
-		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Debug|Any CPU.ActiveCfg = Debug|.NET
-		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
-		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Debug|Mixed Platforms.Build.0 = Debug|.NET
-		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Release|.NET.ActiveCfg = Debug|.NET
-		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Release|.NET.Build.0 = Debug|.NET
-		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Release|Any CPU.ActiveCfg = Debug|.NET
-		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
-		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Release|Mixed Platforms.Build.0 = Debug|.NET
-		{F237E273-3D86-40E7-B6ED-6A3D54740CB8}.Debug|.NET.ActiveCfg = Debug
-		{F237E273-3D86-40E7-B6ED-6A3D54740CB8}.Debug|Any CPU.ActiveCfg = Debug
-		{F237E273-3D86-40E7-B6ED-6A3D54740CB8}.Debug|Mixed Platforms.ActiveCfg = Debug
-		{F237E273-3D86-40E7-B6ED-6A3D54740CB8}.Release|.NET.ActiveCfg = Release
-		{F237E273-3D86-40E7-B6ED-6A3D54740CB8}.Release|Any CPU.ActiveCfg = Release
-		{F237E273-3D86-40E7-B6ED-6A3D54740CB8}.Release|Mixed Platforms.ActiveCfg = Release
-		{F237E273-3D86-40E7-B6ED-6A3D54740CB8}.Release|Mixed Platforms.Build.0 = Release
-		{03A2A35E-8163-4EDD-A84D-5E969CE25EA0}.Debug|.NET.ActiveCfg = Debug
-		{03A2A35E-8163-4EDD-A84D-5E969CE25EA0}.Debug|.NET.Build.0 = Debug
-		{03A2A35E-8163-4EDD-A84D-5E969CE25EA0}.Debug|Any CPU.ActiveCfg = Debug
-		{03A2A35E-8163-4EDD-A84D-5E969CE25EA0}.Debug|Any CPU.Build.0 = Debug
-		{03A2A35E-8163-4EDD-A84D-5E969CE25EA0}.Debug|Mixed Platforms.ActiveCfg = Debug
-		{03A2A35E-8163-4EDD-A84D-5E969CE25EA0}.Debug|Mixed Platforms.Build.0 = Debug
-		{03A2A35E-8163-4EDD-A84D-5E969CE25EA0}.Release|.NET.ActiveCfg = Release
-		{03A2A35E-8163-4EDD-A84D-5E969CE25EA0}.Release|.NET.Build.0 = Release
-		{03A2A35E-8163-4EDD-A84D-5E969CE25EA0}.Release|Any CPU.ActiveCfg = Release
-		{03A2A35E-8163-4EDD-A84D-5E969CE25EA0}.Release|Any CPU.Build.0 = Release
-		{03A2A35E-8163-4EDD-A84D-5E969CE25EA0}.Release|Mixed Platforms.ActiveCfg = Release
-		{03A2A35E-8163-4EDD-A84D-5E969CE25EA0}.Release|Mixed Platforms.Build.0 = Release
+		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B4E6C9E0-9EEA-4327-ABD6-965CAF57A2DA}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
