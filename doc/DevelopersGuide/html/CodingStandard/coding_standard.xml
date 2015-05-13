@@ -1,0 +1,8 @@
+<h1>Coding Standard</h1>
+
+<p>This section is an attempt to standardize the Alchemi codebase to make it easier for new developers to become productive with the Alchemi code.</p>
+
+<p>
+  Much of the standard has been adapted from <a href="http://www.amazon.com/Programming-NET-Components-Juval-Lowy/dp/0596102070/" target="_new">Juval Lowy's book <i>Programming .NET Components, 2nd Edition</i>
+  </a>.  We have adapted it in parts to fit the current Alchemi codebase.
+</p>

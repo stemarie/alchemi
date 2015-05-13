@@ -1,0 +1,89 @@
+Overall
+=======
+[ ] Make private variables start with _ or m_?
+[ ] Look into changing all "String" types to "string"
+[ ] Look into changing all "Int32" types to "int"
+[ ] Why do some of the *View storage classes have a StateString property?  Is there a better way?
+
+Delegates
+===
+[ ] Change the delegates (GApplicationFinish, GThreadFinish, and GThreadFailed) 
+    so that they have "object sender" and are also named properly
+
+ApplicationStorageView
+====
+[ ] Should c_noDateTime be static or const?
+
+PermissionStorageView
+===
+[ ] Change GetPermissionStorageView so it doesn't use an ArrayList
+
+StorageMaintenanceParameters
+===
+[ ] Add documentation
+[ ] Change ArrayList stuff
+
+EmbeddedFileDependency
+===
+[ ] Change the ArrayLists to use generics
+
+FileDependencyCollection
+===
+[ ] Derive from the generic ReadOnlyCollection<FileDependency> to fully embrace .NET 2.0 generics
+[ ] Can also take advantage of List.Contains()
+
+GApplication
+===
+[ ] Create an OnApplicationFinish method that fires the event
+[ ] Add blocking Start() method. 
+    That is, a call to Start() doesn't return until the entire GApplication is finished.
+
+GConnection
+===
+[ ] FromConsole method needs some error checking (like for the int.Parse method)
+
+GConnectionDialogForm
+===
+[ ] Show error messages on a label on the form instead of using a MessageBox
+[ ] ReadConfig always gets the file from the same location.  Make this configurable?
+
+GConnectionDialogFormConfig
+===
+[ ] Move into the Owner namespace?
+[ ] Use the Utils.(De)SerializeToFile functions here?
+
+GThread
+===
+[ ] Change the SetFailed, SetWorkingDirectory, SetApplication, and SetId methods to properties
+
+GThreadBuffer
+===
+[ ] Can m_cThreads be moved from an ArrayList to a List<>?
+[ ] Get rid of the Hungarian notation?
+
+ThreadCollection
+===
+[ ] Rewrite this using List<GThread>
+
+Utils
+===
+[ ] Create generic versions of the functions to use, like
+    public static void SerializeToFile<T>(T obj, string fileLocation)
+[ ] Use these functions everywhere else and eliminate the typecasts
+[ ] Get rid of ReadStringFromFile and use File.ReadAllText
+[ ] Not sure why there is a DateDiff function since DateTimes support the - operator...
+[ ] Trace() only prints to Console -- rewrite so it prints to log file?
+    Or just get rid of it since it's not used anywhere?
+    
+GNode
+===
+[ ] Rewrite GNode.RemoteSelf so that is has multiple catch statements
+[ ] Not all constructors call InitializeComponent -- is this a problem?
+
+Logger
+===
+[ ] Maybe I'm missing something but why does it have a delegate instead of an event?
+
+Exceptions
+===
+[ ] Move these into their own files?  Possibly make Alchemi.Core.Exceptions to keep them in
