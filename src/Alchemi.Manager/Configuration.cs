@@ -304,5 +304,7 @@ namespace Alchemi.Manager
             return temp;
         }
 
+
+        public int OwnPort { get; set; }
     }
 }
